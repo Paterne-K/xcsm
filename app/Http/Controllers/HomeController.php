@@ -144,6 +144,37 @@ class HomeController extends Controller
         return $this->lectureDuCours($id, $title);
 
     }
+     public function suppression(Request $request)
+    {
+        $folder = Session::get("folder");
+
+        $identity = explode("_", $folder);
+
+        $title = $identity[1];
+
+        $id = $identity[0];
+
+        return $this->supprimerCour($id, $title);
+
+    }
+
+    public function supprimerCour($id, $title){
+        // on charge les donnees 
+        $metadata = simplexml_load_file("xmoddledata/metadata.xml");
+        // on Vérifie si le cours existe
+        $nbrCours = $metadata->attributes()->nbrCours;
+        $i = 0;
+        for ($i = 0; $i < $nbrCours; $i++) {
+            if (($metadata->cours[$i]->attributes()->title == $title) && ($metadata->cours[$i]->attributes()->id == $id)) {
+                unset($metadata->cours[$i]);
+                break;
+            }
+            
+        }
+        $metadata->attributes()->nbrCours = $nbrCours-1;
+        $metadata->asXML("xmoddledata/metadata.xml");
+        return redirect("/");
+ }
 
     public function cours(Request $request)
     {
