@@ -29,6 +29,7 @@ Route::get('/forms', function() {
 Route::resource('/save', 'HomeController');
 Route::get('/search', 'HomeController@search');
 Route::get('/lecture', 'HomeController@lecture');
+Route::get('/suppression', 'HomeController@suppression');
 
 Route::resource('/users','UserController');
 Route::resource('/notifications','NotificationController');
