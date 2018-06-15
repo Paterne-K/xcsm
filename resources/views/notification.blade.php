@@ -14,11 +14,11 @@
 
 
 </head>
-<body style="background-color:#fff;">
+<body style="background-color:#fff2e6;">
 <nav class=" greencolor" role=navigation>
     <div class="nav-wrapper container">
-        <ul class="left hide-on-med-and-down">
-            <li><a href="/" class=white-text >Accueil</a></li>
+        <ul class="right hide-on-med-and-down">
+            <li><a href="/" class=white-text>Accueil</a></li>
         </ul>
         <ul id=nav-mobile class=side-nav>
             <li><a href=#>Navbar Link</a></li>
@@ -26,7 +26,15 @@
         <a href=# data-activates=nav-mobile class=button-collapse><i class=material-icons>menu</i></a></div>
 </nav>
 <div id=index-banner class=parallax-container>
-    /
+    <div class="section no-pad-bot">
+        <div class=container><br><br>
+            <h1 class="header center teal-text text-lighten-2">Notifications Mail & SMS</h1>
+            <div class="row center"><h5 class="header col s12 darken-1">Plateforme de Notifications SMS et Mails</h5>
+            </div>
+            <div class="row center"><a href=# id=download-button
+                                       class="btn-large waves-effect waves-light teal lighten-1">Notifications</a></div>
+            <br><br></div>
+    </div>
     <div class=parallax><img src=static/images/accueil.jpg alt="Unsplashed background img 1"></div>
 </div>
 <div id=app class=container>

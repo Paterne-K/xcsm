@@ -15,6 +15,7 @@ class NotificationController extends Controller
 
         $ids = $request->get("ids");
 
+
         $sendSms = $request->get("sendSms");
         $sendMail = $request->get('sendMail');
         foreach ($ids as $id){
