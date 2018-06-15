@@ -122,11 +122,14 @@
                                 <div class="listeCours sidebar-menu">
                                     @foreach(Session::get('listecours') as $cours)
 
-                                        <li class="mysize1" >
-                                            <a href="/cours?folder={{$cours}}" >
+                                        <li class="mysize1 row" >
+                                            <a href="/cours?folder={{$cours}}" class="col-md-7">
                                                 <i class="fa fa-fw fa-file "></i>
                                                 <span> {{explode("_",$cours)[1]}}</span>
+                                               
                                             </a>
+                                            <a href="/suppression?folder={{$cours}}" class="col-md-offset-3 col-md-2"> <i class="fa fa-fw fa-remove iconeremove"> </i> </a>
+                                            
                                         </li>
                                     @endforeach
                                 </div>
