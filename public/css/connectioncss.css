@@ -1,0 +1,64 @@
+.mylogo{
+    color: #0099e6 ;
+            /*#009999;*/
+    font-size: 35px;
+    width: 550px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: 9%;
+
+
+}
+#inter
+{
+    position: relative;
+    margin :auto;
+}
+.connectbody
+{
+    background-color:
+            /*white;*/
+            #fff2e6;
+            /*#ffbf80;*/
+   /*padding-top: 0%;*/
+    /*margin-top: 0%;*/
+    height: 100%;
+
+
+}
+.afterbody
+{
+    margin-left: 31%;
+    margin-top: 0%;
+    width: 550px;
+}
+.box-login
+{
+    background-color: #0099e6;
+            /*#3d9970 ;*/
+    color: white;
+    font-size: 17px;
+    width: 550px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.conbutton
+{
+    color: white;
+    font-size: 17px;
+    /*width: 450px;*/
+    font-weight: bold;
+
+}
+.register
+{
+    color: white;
+    text-decoration: underline;
+}
+.input
+{
+    background-color: white;
+
+}
+

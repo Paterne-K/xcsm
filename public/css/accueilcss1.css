@@ -1,0 +1,145 @@
+@font-face {
+    font-family: "Garamond";
+    src:url('./eb-garamond/EBGaramond12-regular.ttf')
+}
+body{
+    overflow: hidden;
+}
+/*@font-face {
+    font-family: "Ma Super Fonte";
+    font-style: italic;
+    src: url('MaSuperFonte-Italic.ttf');
+}
+@font-face {
+    font-family: "Ma Super Fonte";
+    font-weight: bold;
+    src: url('MaSuperFonte-Bold.ttf');
+}*/
+.mybutton{
+    font-size: 18px ;
+
+}
+.family{
+    font-family: Garamond;
+    font-weight: bold;
+}
+.mysize{
+    font-size: 21px;
+}
+.mysize1{
+    font-size: 17px;
+}
+#myaside{
+
+    color: white;
+}
+#footer{
+    background-color: #00a65a;
+    font-size: 12px;
+    height: 120px;
+}
+#textB{
+    font-size: 18px;
+    text-align: justify;
+
+}
+.white{
+    background-color: white;
+}
+.fond
+{
+   background-color: #fff2e6;
+}
+.text{
+    color: white;
+}
+.center{
+    text-align: center;
+}
+#firstBox{
+
+    margin-left: 5%;
+    margin-top: 3%;
+
+}
+#fbheader{
+    background-color: 	#0099e6;
+}
+.myicon{
+  color: #00a65a;
+}
+.greencolor
+{
+    background-color: #00a65a;
+}
+#lastBox{
+   background-color:	#0099e6; /* #ff9966;*/
+    border-radius: 10px;
+    border-color: #0d3625;
+    color: white;
+    height: 48px;
+    width: 58%;
+    margin-left: 42%;
+    text-align: center;
+    padding-top: 7px;
+
+}
+#modalcont
+{
+    background-color: #fff2e6;
+}
+#titleform
+{
+    color:#009999;
+            /*#0099e6 ;*/
+
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+.nameform
+{
+    color:#009999;
+    font-size: 15px;
+    font-weight: bold;
+}
+.contenu
+{
+
+}
+section.content.fond {
+    background-color: white;
+    height: 800px !important;
+
+}
+section.content .contenu{
+    height: 800px !important;
+    overflow: scroll;
+    padding:50px !important;
+    border:1px solid gainsboro;
+    border-radius: 10px;
+
+}
+section ol.navigation{
+    list-style-type: upper-roman;
+    border:1px solid gainsboro;
+    margin-left:-50px;
+}
+section ol.navigation > li a{
+    color: #2d353d;
+    font-weight: 100;
+}
+section ol.navigation  li a:hover{
+    background-color: gainsboro;
+    text-decoration: none;
+
+}
+section ol.navigation > li >a{
+    font-size:22px;
+}
+section ol.navigation .chapitre > li >a{
+    font-size:18px;
+}
+section ol.navigation .paragraphe{
+    list-style-type:lower-latin;
+}
