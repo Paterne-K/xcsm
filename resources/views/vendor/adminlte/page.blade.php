@@ -19,6 +19,10 @@
         font-family: "Garamond";
         src:url({{ asset('css/eb-garamond/EBGaramond12-regular.ttf') }})
     }
+    .iconeremove{
+        color:red;
+    }
+</style>
 </style>
 @section('body_class', 'skin-' . config('adminlte.skin', 'blue') . ' sidebar-mini ' . (config('adminlte.layout') ? [
     'boxed' => 'layout-boxed',
