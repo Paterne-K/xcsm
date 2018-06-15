@@ -16,7 +16,7 @@
         <div class="col-md-11 fond">
             <div class="box box-primary fond" id="firstBox">
                 <div class="box-header with-border" id="fbheader">
-                    <h1 class="box-title text">Bienvenue sur <b>XCSM module(Extended Content Structured Module)</b></h1>
+                    <h1 class="box-title text">Bienvenue sur <b>XCSM module (Extended Content Structured Module)</b></h1>
                     <span class="label label-primary pull-right"><i class="fa fa-fw fa-institution "></i></span>
                 </div><!-- /.box-header -->
                 <div id="textB" class="box-body row ">

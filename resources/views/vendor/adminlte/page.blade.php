@@ -80,8 +80,8 @@
                             @endif
                             <!-- Navbar Right Menu -->
                             <div class="navbar-custom-menu">
-                                <button type="button"  class=" text btn btn-sm bg-blue-active">
-                                <span class="family " ><a class="family text mybutton" href="/logout" >
+                                <button type="button"  class=" text btn btn-sm bg-blue-active" style="margin:4px;background-color:pink">
+                                <span class="family "><a class="family text mybutton" href="/logout" >
                                         Se Deconnecter</a></span></button>
 
                             {{--<form class="navbar-form navbar-left"  role="search">--}}

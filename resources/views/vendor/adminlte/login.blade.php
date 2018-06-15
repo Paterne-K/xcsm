@@ -21,7 +21,7 @@
 <!--            {{--<a href="{{ url(config('adminlte.dashboard_url', 'home')) }}">{!! config('adminlte.logo', '<b>XCSM</b>MODULE') !!}</a>--}}-->
             <a href="#" >
                 <!-- logo for regular state and mobile devices -->
-                <span class="mylogo">Connection au module XCSM </span>
+                <span class="mylogo">Connexion au module XCSM </span>
             </a>
         </div>
         <!-- /.login-logo -->
